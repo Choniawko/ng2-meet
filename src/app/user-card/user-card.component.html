@@ -1,0 +1,5 @@
+<p>
+  user-card {{parrentUser}}!
+</p>
+<input type="text" [(ngModel)]="parrentUser" #user name="user">
+<button (click)="onSend(user.value)">Wyslij do rodzica</button>
